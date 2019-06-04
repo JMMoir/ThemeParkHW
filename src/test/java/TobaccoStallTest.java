@@ -13,7 +13,7 @@ public class TobaccoStallTest {
     @Before
 
     public void setUp() {
-        tobaccoStall = new TobaccoStall("Smokey Joe", "John", "B12");
+        tobaccoStall = new TobaccoStall("Smokey Joe", "John", "B12", 5);
         visitor1 = new Visitor(18, 150, 20);
         visitor2 = new Visitor(10, 150, 20);
     }

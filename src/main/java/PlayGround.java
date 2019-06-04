@@ -1,7 +1,7 @@
 public class PlayGround extends Attraction implements ISecurity {
 
-    public PlayGround(String name) {
-        super(name);
+    public PlayGround(String name, int rating) {
+        super(name, rating);
     }
 
     public boolean isAllowedTo(Visitor visitor){

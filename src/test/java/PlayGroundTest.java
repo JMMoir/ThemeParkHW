@@ -13,7 +13,7 @@ public class PlayGroundTest {
     @Before
 
     public void setUp() {
-        playGround = new PlayGround("PlayGround");
+        playGround = new PlayGround("PlayGround", 3);
         visitor1 = new Visitor(16, 150, 20);
         visitor2 = new Visitor(10, 150, 20);
 
